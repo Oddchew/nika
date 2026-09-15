@@ -1,0 +1,15 @@
+nrel_based_on
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+=> nrel_main_idtf:
+	[основан на*]
+	(* <- lang_ru;; *);
+	[based on*]
+	(* <- lang_en;; *);
+=> nrel_note:
+	[Отношение, указывающее, что одно учение или практика опирается на другое.]
+	(* <- lang_ru;; *);;

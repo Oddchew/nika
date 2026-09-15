@@ -1,0 +1,17 @@
+nrel_belongs_to
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+=> nrel_main_idtf:
+	[принадлежит*]
+	(* <- lang_ru;; *);
+	[belongs to*]
+	(* <- lang_en;; *);
+=> nrel_first_domain: concept_buddhist_school;
+=> nrel_second_domain: concept_buddhism;
+=> nrel_note:
+	[Отношение принадлежности школы или традиции к более широкому направлению.]
+	(* <- lang_ru;; *);;

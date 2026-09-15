@@ -1,0 +1,21 @@
+nrel_part_of
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- transitive_relation;
+=> nrel_main_idtf:
+	[часть*]
+	(* <- lang_ru;; *);
+	[part of*]
+	(* <- lang_en;; *);
+=> nrel_first_domain: concept_;
+=> nrel_second_domain: concept_;
+=> nrel_note:
+	[Бинарное ориентированное отношение «быть частью*». Используется для указания, что одно понятие входит в состав другого.]
+	(* <- lang_ru;; *);
+=> nrel_definition:
+	[Отношение «часть*» связывает элемент или подкласс с целым, в которое он входит.]
+	(* <- lang_ru;; *);;

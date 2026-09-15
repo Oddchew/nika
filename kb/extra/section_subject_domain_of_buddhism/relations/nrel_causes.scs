@@ -1,0 +1,25 @@
+nrel_causes
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+=> nrel_main_idtf:
+	[является причиной*]
+	(* <- lang_ru;; *);
+	[causes*]
+	(* <- lang_en;; *);
+=> nrel_first_domain: concept_karma;
+=> nrel_second_domain: concept_samsara;
+=> nrel_definitional_domain:
+	...
+	(*
+		<= nrel_combination: {
+			concept_karma;
+			concept_samsara
+		};;
+	*);
+=> nrel_note:
+	[Отношение причинной связи. Указывает, что одно явление порождает или обусловливает другое.]
+	(* <- lang_ru;; *);;

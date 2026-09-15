@@ -1,0 +1,16 @@
+concept_sangha
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+	[сангха]
+	(* <- lang_ru;; *);
+	[Sangha]
+	(* <- lang_en;; *);
+=> nrel_note:
+	[Сангха — буддийская община. В узком смысле — община монахов и монахинь, в широком — все последователи учения Будды.]
+	(* <- lang_ru;; *);
+=> nrel_definition:
+	[Сангха — третья из Трёх драгоценностей буддизма. Община практикующих, поддерживающая и передающая Дхарму.]
+	(* <- lang_ru;; *);
+<= nrel_part_of: concept_three_jewels;
+=> nrel_inclusion: concept_monk;;

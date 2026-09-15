@@ -1,0 +1,11 @@
+noble_eightfold_path_instance
+<- concept_noble_eightfold_path;
+=> nrel_main_idtf:
+	[Благородный восьмеричный путь]
+	(* <- lang_ru;; *);
+=> nrel_note:
+	[Конкретный путь практики, указанный Буддой как четвёртая благородная истина.]
+	(* <- lang_ru;; *);
+<= nrel_teaches: buddha_shakyamuni;
+<= nrel_part_of: four_noble_truths_instance;
+=> nrel_leads_to: nirvana_instance;;

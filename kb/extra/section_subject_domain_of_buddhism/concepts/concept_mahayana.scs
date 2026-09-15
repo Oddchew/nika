@@ -1,0 +1,17 @@
+concept_mahayana
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+	[махаяна]
+	(* <- lang_ru;; *);
+	[Mahayana]
+	(* <- lang_en;; *);
+=> nrel_note:
+	[Махаяна («великая колесница») — одно из двух основных направлений буддизма. Распространена в Китае, Японии, Корее, Вьетнаме, Тибете. Акцент на идеале бодхисаттвы.]
+	(* <- lang_ru;; *);
+=> nrel_definition:
+	[Махаяна — направление буддизма, провозглашающее путь бодхисаттвы как идеал и признающее возможность достижения состояния будды всеми существами.]
+	(* <- lang_ru;; *);
+<= nrel_inclusion: concept_buddhist_school;
+<= nrel_part_of: concept_buddhism;
+=> nrel_inclusion: concept_bodhisattva;;

@@ -1,0 +1,16 @@
+concept_nirvana
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+	[нирвана]
+	(* <- lang_ru;; *);
+	[Nirvana]
+	(* <- lang_en;; *);
+=> nrel_note:
+	[Нирвана (пали: ниббана) — высшая цель буддийской практики. Состояние полного прекращения страдания, жажды и неведения.]
+	(* <- lang_ru;; *);
+=> nrel_definition:
+	[Нирвана — прекращение дуккхи, выход из круговорота сансары. Достигается через реализацию Четырёх благородных истин и следование Благородному восьмеричному пути.]
+	(* <- lang_ru;; *);
+<= nrel_leads_to: concept_noble_eightfold_path;
+<= nrel_part_of: concept_four_noble_truths;;

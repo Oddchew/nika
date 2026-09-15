@@ -1,0 +1,78 @@
+section_subject_domain_of_buddhism
+=> nrel_main_idtf:
+	[Раздел. Предметная область буддизма]
+	(* <- lang_ru;; *);
+	[Section. Subject domain of Buddhism]
+	(* <- lang_en;; *);
+<- atomic_section;;
+
+section_subject_domain_of_buddhism = [*
+	subject_domain_of_buddhism
+	<- sc_node_struct;
+	=> nrel_main_idtf:
+		[Предметная область буддизма]
+		(* <- lang_ru;; *);
+		[Subject domain of Buddhism]
+		(* <- lang_en;; *);
+	<- subject_domain;
+	-> rrel_maximum_studied_object_class:
+		concept_buddhism;
+	-> rrel_not_maximum_studied_object_class:
+		concept_buddha;
+		concept_dharma;
+		concept_sangha;
+		concept_four_noble_truths;
+		concept_noble_eightfold_path;
+		concept_nirvana;
+		concept_karma;
+		concept_samsara;
+		concept_dukkha;
+		concept_bodhi;
+		concept_buddhist_school;
+		concept_theravada;
+		concept_mahayana;
+		concept_vajrayana;
+		concept_monk;
+		concept_bodhisattva;
+		concept_arhat;
+		concept_sutra;
+		concept_meditation;
+		concept_pancha_sila;
+		concept_three_jewels;
+		concept_middle_way;
+		concept_anatta;
+		concept_anicca;
+		concept_person;
+	-> rrel_explored_relation:
+		nrel_founder;
+		nrel_teaches;
+		nrel_part_of;
+		nrel_leads_to;
+		nrel_causes;
+		nrel_belongs_to;
+		nrel_contains;
+		nrel_based_on;
+		nrel_inclusion;;
+*];;
+
+section_subject_domain_of_buddhism
+-> rrel_key_sc_element:
+	subject_domain_of_buddhism;
+	concept_buddhism;
+	concept_buddha;
+	concept_dharma;
+	concept_sangha;
+	concept_four_noble_truths;
+	concept_noble_eightfold_path;
+	concept_nirvana;
+	concept_karma;
+	concept_samsara;
+	concept_dukkha;
+	nrel_founder;
+	nrel_teaches;
+	nrel_part_of;
+	nrel_leads_to;
+	nrel_causes;
+	nrel_belongs_to;
+	nrel_contains;
+	nrel_based_on;;

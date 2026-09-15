@@ -1,0 +1,13 @@
+three_jewels_instance
+<- concept_three_jewels;
+=> nrel_main_idtf:
+	[Три драгоценности]
+	(* <- lang_ru;; *);
+=> nrel_note:
+	[Будда, Дхарма и Сангха — основные объекты прибежища в буддизме.]
+	(* <- lang_ru;; *);
+=> nrel_contains:
+	buddha_shakyamuni;
+	concept_dharma;
+	concept_sangha;
+<= nrel_part_of: concept_buddhism;;

@@ -1,0 +1,17 @@
+concept_vajrayana
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+	[ваджраяна]
+	(* <- lang_ru;; *);
+	[Vajrayana]
+	(* <- lang_en;; *);
+=> nrel_note:
+	[Ваджраяна («алмазная колесница») — тантрическое направление буддизма, развившееся в рамках махаяны. Особенно сильно представлено в тибетском буддизме.]
+	(* <- lang_ru;; *);
+=> nrel_definition:
+	[Ваджраяна — эзотерическое направление буддизма, использующее тантрические методы для ускоренного достижения просветления.]
+	(* <- lang_ru;; *);
+<= nrel_inclusion: concept_buddhist_school;
+<= nrel_part_of: concept_buddhism;
+<= nrel_inclusion: concept_mahayana;;

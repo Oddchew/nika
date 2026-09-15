@@ -1,0 +1,16 @@
+concept_arhat
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+	[архат]
+	(* <- lang_ru;; *);
+	[Arhat]
+	(* <- lang_en;; *);
+=> nrel_note:
+	[Архат («достойный») — человек, полностью уничтоживший омрачения и достигший нирваны. Идеал в тхераваде.]
+	(* <- lang_ru;; *);
+=> nrel_definition:
+	[Архат — святой, полностью освободившийся от жажды, ненависти и неведения и более не подверженный перерождениям.]
+	(* <- lang_ru;; *);
+<= nrel_inclusion: concept_theravada;
+<= nrel_leads_to: concept_nirvana;;

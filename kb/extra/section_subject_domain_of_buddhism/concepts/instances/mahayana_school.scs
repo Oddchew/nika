@@ -1,0 +1,13 @@
+mahayana_school
+<- concept_mahayana;
+<- concept_buddhist_school;
+=> nrel_main_idtf:
+	[Махаяна]
+	(* <- lang_ru;; *);
+	[Mahayana school]
+	(* <- lang_en;; *);
+=> nrel_note:
+	[«Великая колесница». Направление, акцентирующее идеал бодхисаттвы и возможность достижения состояния будды всеми существами.]
+	(* <- lang_ru;; *);
+<= nrel_belongs_to: concept_buddhism;
+=> nrel_inclusion: concept_bodhisattva;;

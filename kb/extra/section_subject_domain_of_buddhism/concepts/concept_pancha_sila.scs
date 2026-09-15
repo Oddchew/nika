@@ -1,0 +1,16 @@
+concept_pancha_sila
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+	[пять обетов]
+	(* <- lang_ru;; *);
+	[Five Precepts]
+	(* <- lang_en;; *);
+=> nrel_note:
+	[Панча шила — базовый этический кодекс для буддистов-мирян. Пять обетов воздержания.]
+	(* <- lang_ru;; *);
+=> nrel_definition:
+	[Пять обетов: 1) не убивать живых существ; 2) не брать того, что не дано; 3) не совершать сексуальных проступков; 4) не лгать; 5) не употреблять опьяняющих веществ.]
+	(* <- lang_ru;; *);
+<= nrel_part_of: concept_noble_eightfold_path;
+<= nrel_part_of: concept_dharma;;

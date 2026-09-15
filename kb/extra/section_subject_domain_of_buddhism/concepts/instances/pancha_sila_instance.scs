@@ -1,0 +1,10 @@
+pancha_sila_instance
+<- concept_pancha_sila;
+=> nrel_main_idtf:
+	[Пять обетов]
+	(* <- lang_ru;; *);
+=> nrel_note:
+	[Базовый этический кодекс для мирян: отказ от убийства, воровства, сексуальных проступков, лжи и употребления опьяняющих веществ.]
+	(* <- lang_ru;; *);
+<= nrel_part_of: concept_dharma;
+<= nrel_part_of: concept_noble_eightfold_path;;

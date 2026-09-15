@@ -1,0 +1,9 @@
+nirvana_instance
+<- concept_nirvana;
+=> nrel_main_idtf:
+	[нирвана]
+	(* <- lang_ru;; *);
+=> nrel_note:
+	[Высшая цель буддийской практики — полное прекращение страдания и выход из сансары.]
+	(* <- lang_ru;; *);
+<= nrel_leads_to: noble_eightfold_path_instance;;

@@ -1,0 +1,14 @@
+four_noble_truths_instance
+<- concept_four_noble_truths;
+=> nrel_main_idtf:
+	[Четыре благородные истины]
+	(* <- lang_ru;; *);
+=> nrel_note:
+	[Конкретная формулировка Четырёх благородных истин, изложенная Буддой Шакьямуни в первой проповеди в Оленьем парке близ Варанаси.]
+	(* <- lang_ru;; *);
+<= nrel_teaches: buddha_shakyamuni;
+=> nrel_contains:
+	dukkha_truth;
+	samudaya_truth;
+	nirodha_truth;
+	magga_truth;;

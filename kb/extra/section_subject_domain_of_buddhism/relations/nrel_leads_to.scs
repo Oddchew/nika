@@ -1,0 +1,25 @@
+nrel_leads_to
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+=> nrel_main_idtf:
+	[ведёт к*]
+	(* <- lang_ru;; *);
+	[leads to*]
+	(* <- lang_en;; *);
+=> nrel_first_domain: concept_noble_eightfold_path;
+=> nrel_second_domain: concept_nirvana;
+=> nrel_definitional_domain:
+	...
+	(*
+		<= nrel_combination: {
+			concept_noble_eightfold_path;
+			concept_nirvana
+		};;
+	*);
+=> nrel_note:
+	[Отношение, указывающее, что следование определённому пути или практике приводит к определённому результату.]
+	(* <- lang_ru;; *);;

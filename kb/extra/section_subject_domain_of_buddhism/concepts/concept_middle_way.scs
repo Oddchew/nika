@@ -1,0 +1,16 @@
+concept_middle_way
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+	[Срединный путь]
+	(* <- lang_ru;; *);
+	[Middle Way]
+	(* <- lang_en;; *);
+=> nrel_note:
+	[Срединный путь — метод, открытый Буддой, избегающий крайностей чувственных удовольствий и сурового аскетизма.]
+	(* <- lang_ru;; *);
+=> nrel_definition:
+	[Срединный путь — практический подход к освобождению, воплощённый в Благородном восьмеричном пути. Избегает крайностей гедонизма и самоистязания.]
+	(* <- lang_ru;; *);
+=> nrel_based_on: concept_noble_eightfold_path;
+<= nrel_part_of: concept_dharma;;

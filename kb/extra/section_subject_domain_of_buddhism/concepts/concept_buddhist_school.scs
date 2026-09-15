@@ -1,0 +1,19 @@
+concept_buddhist_school
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+	[буддийская школа]
+	(* <- lang_ru;; *);
+	[Buddhist school]
+	(* <- lang_en;; *);
+=> nrel_note:
+	[Буддийские школы — различные традиции и направления, возникшие в процессе исторического развития буддизма.]
+	(* <- lang_ru;; *);
+=> nrel_definition:
+	[Буддийская школа — направление буддизма, характеризующееся определённой интерпретацией учения, каноном текстов и практиками.]
+	(* <- lang_ru;; *);
+=> nrel_inclusion:
+	concept_theravada;
+	concept_mahayana;
+	concept_vajrayana;
+<= nrel_part_of: concept_buddhism;;

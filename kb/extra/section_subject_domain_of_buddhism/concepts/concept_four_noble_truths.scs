@@ -1,0 +1,20 @@
+concept_four_noble_truths
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+	[Четыре благородные истины]
+	(* <- lang_ru;; *);
+	[Four Noble Truths]
+	(* <- lang_en;; *);
+=> nrel_note:
+	[Центральное учение буддизма, изложенное Буддой в первой проповеди (Сутра запуска Колеса Дхармы). Формулировки сопоставимы с диагнозом и лечением врача.]
+	(* <- lang_ru;; *);
+=> nrel_definition:
+	[1. Существует страдание (дуккха). 2. Существует причина страдания — жажда (танха). 3. Существует прекращение страдания (ниродха, нирвана). 4. Существует путь, ведущий к прекращению страдания — Благородный восьмеричный путь.]
+	(* <- lang_ru;; *);
+<= nrel_part_of: concept_dharma;
+=> nrel_contains:
+	concept_dukkha;
+	concept_nirvana;
+	concept_noble_eightfold_path;
+=> nrel_based_on: concept_middle_way;;

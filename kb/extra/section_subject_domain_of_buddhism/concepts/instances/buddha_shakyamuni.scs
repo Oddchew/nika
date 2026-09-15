@@ -1,0 +1,20 @@
+buddha_shakyamuni
+<- concept_buddha;
+<- concept_person;
+=> nrel_main_idtf:
+	[Будда Шакьямуни]
+	(* <- lang_ru;; *);
+	[Buddha Shakyamuni]
+	(* <- lang_en;; *);
+=> nrel_idtf:
+	[Сиддхартха Гаутама]
+	(* <- lang_ru;; *);
+	[Siddhartha Gautama]
+	(* <- lang_en;; *);
+=> nrel_note:
+	[Исторический основатель буддизма. Родился около VI–V вв. до н.э. в Лумбини (современный Непал). Достиг просветления (бодхи) в возрасте 35 лет под деревом Бодхи в Бодхгае. Проповедовал около 45 лет.]
+	(* <- lang_ru;; *);
+=> nrel_founder: concept_buddhism;
+=> nrel_teaches: concept_four_noble_truths;
+=> nrel_teaches: concept_noble_eightfold_path;
+=> nrel_teaches: concept_dharma;;

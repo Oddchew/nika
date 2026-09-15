@@ -1,0 +1,16 @@
+concept_bodhisattva
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+	[бодхисаттва]
+	(* <- lang_ru;; *);
+	[Bodhisattva]
+	(* <- lang_en;; *);
+=> nrel_note:
+	[Бодхисаттва — существо, стремящееся к достижению состояния будды ради блага всех живых существ. Центральный идеал махаяны.]
+	(* <- lang_ru;; *);
+=> nrel_definition:
+	[Бодхисаттва — тот, кто породил бодхичитту (стремление к просветлению) и следует пути парамит ради освобождения всех существ.]
+	(* <- lang_ru;; *);
+<= nrel_inclusion: concept_mahayana;
+<= nrel_part_of: concept_buddhism;;

@@ -1,0 +1,19 @@
+concept_three_jewels
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+	[Три драгоценности]
+	(* <- lang_ru;; *);
+	[Three Jewels]
+	(* <- lang_en;; *);
+=> nrel_note:
+	[Три драгоценности (Триратна) — Будда, Дхарма и Сангха. Основные объекты прибежища в буддизме.]
+	(* <- lang_ru;; *);
+=> nrel_definition:
+	[Три драгоценности — Будда (учитель), Дхарма (учение) и Сангха (община). Принятие прибежища в Трёх драгоценностях является вступлением на буддийский путь.]
+	(* <- lang_ru;; *);
+=> nrel_contains:
+	concept_buddha;
+	concept_dharma;
+	concept_sangha;
+<= nrel_part_of: concept_buddhism;;

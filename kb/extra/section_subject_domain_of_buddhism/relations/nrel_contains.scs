@@ -1,0 +1,15 @@
+nrel_contains
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+=> nrel_main_idtf:
+	[содержит*]
+	(* <- lang_ru;; *);
+	[contains*]
+	(* <- lang_en;; *);
+=> nrel_note:
+	[Отношение «содержит*». Указывает, что одно понятие включает в себя другое как составную часть.]
+	(* <- lang_ru;; *);;

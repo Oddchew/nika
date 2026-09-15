@@ -1,0 +1,25 @@
+concept_buddhism
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+	[буддизм]
+	(* <- lang_ru;; *);
+	[Buddhism]
+	(* <- lang_en;; *);
+=> nrel_note:
+	[Буддизм — одна из мировых религий и философско-этическая система, основанная на учении Сиддхартхи Гаутамы (Будды Шакьямуни). Возникла в середине I тысячелетия до н.э. в Северной Индии.]
+	(* <- lang_ru;; *);
+=> nrel_definition:
+	[Буддизм — учение о Четырёх благородных истинах и Благородном восьмеричном пути, ведущем к прекращению страдания (дуккхи) и достижению нирваны. Основные направления: тхеравада, махаяна и ваджраяна.]
+	(* <- lang_ru;; *);
+<= nrel_inclusion:
+	concept_world_religion;
+	concept_philosophical_system;
+=> nrel_inclusion:
+	concept_theravada;
+	concept_mahayana;
+	concept_vajrayana;
+=> nrel_contains:
+	concept_three_jewels;
+	concept_four_noble_truths;
+	concept_noble_eightfold_path;;

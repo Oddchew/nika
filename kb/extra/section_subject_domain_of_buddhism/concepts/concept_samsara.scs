@@ -1,0 +1,16 @@
+concept_samsara
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+	[сансара]
+	(* <- lang_ru;; *);
+	[Samsara]
+	(* <- lang_en;; *);
+=> nrel_note:
+	[Сансара — круговорот рождений и смертей, обусловленный кармой и неведением. Характеризуется дуккхой.]
+	(* <- lang_ru;; *);
+=> nrel_definition:
+	[Сансара — цикл перерождений живых существ, из которого возможно освобождение только через достижение нирваны.]
+	(* <- lang_ru;; *);
+<= nrel_causes: concept_karma;
+=> nrel_contains: concept_dukkha;;

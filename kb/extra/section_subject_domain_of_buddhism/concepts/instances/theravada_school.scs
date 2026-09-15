@@ -1,0 +1,13 @@
+theravada_school
+<- concept_theravada;
+<- concept_buddhist_school;
+=> nrel_main_idtf:
+	[Тхеравада]
+	(* <- lang_ru;; *);
+	[Theravada school]
+	(* <- lang_en;; *);
+=> nrel_note:
+	[Старейшая сохранившаяся школа буддизма. Опирается на Палийский канон. Цель — достижение состояния архата.]
+	(* <- lang_ru;; *);
+<= nrel_belongs_to: concept_buddhism;
+=> nrel_inclusion: concept_arhat;;

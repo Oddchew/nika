@@ -1,0 +1,16 @@
+concept_monk
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+	[монах]
+	(* <- lang_ru;; *);
+	[Monk]
+	(* <- lang_en;; *);
+=> nrel_note:
+	[Буддийский монах (бхикшу) — человек, принявший монашеские обеты и посвятивший жизнь практике Дхармы.]
+	(* <- lang_ru;; *);
+=> nrel_definition:
+	[Монах — член сангхи, соблюдающий свод правил Винаи и стремящийся к освобождению.]
+	(* <- lang_ru;; *);
+<= nrel_inclusion: concept_sangha;
+<= nrel_part_of: concept_three_jewels;;

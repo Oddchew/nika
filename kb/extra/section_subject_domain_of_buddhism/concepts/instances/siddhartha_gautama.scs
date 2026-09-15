@@ -1,0 +1,11 @@
+siddhartha_gautama
+<- concept_person;
+=> nrel_main_idtf:
+	[Сиддхартха Гаутама]
+	(* <- lang_ru;; *);
+	[Siddhartha Gautama]
+	(* <- lang_en;; *);
+=> nrel_note:
+	[Мирское имя исторического Будды до достижения просветления. Принц из рода Шакьев. В возрасте 29 лет покинул дворец и стал аскетом.]
+	(* <- lang_ru;; *);
+=> nrel_related: buddha_shakyamuni;;

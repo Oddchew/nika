@@ -1,0 +1,18 @@
+concept_dharma
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+	[дхарма]
+	(* <- lang_ru;; *);
+	[Dharma]
+	(* <- lang_en;; *);
+=> nrel_note:
+	[Дхарма (пали: дхамма) — одно из центральных понятий буддизма. Означает учение Будды, закон мироздания, истину, а также элементы существования.]
+	(* <- lang_ru;; *);
+=> nrel_definition:
+	[Дхарма — учение Будды, включающее Четыре благородные истины, Благородный восьмеричный путь и другие доктрины, ведущие к прекращению страдания.]
+	(* <- lang_ru;; *);
+<= nrel_part_of: concept_three_jewels;
+=> nrel_contains:
+	concept_four_noble_truths;
+	concept_noble_eightfold_path;;
